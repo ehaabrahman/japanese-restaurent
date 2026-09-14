@@ -1,0 +1,6 @@
+{
+  "name": "Kokoro Ramen & Japanese Soul Food",
+  "description": "Artisanal tonkotsu broths, hand-rolled sushi, crispy gyozas, and handcrafted Zen Chai bubble teas at Nexus Vega City Mall, Bengaluru.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

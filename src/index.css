@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Epilogue', sans-serif;
+  --font-headline: 'Epilogue', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+  --color-primary: #9a0c06;
+  --color-primary-container: #bd2a1d;
+  --color-on-primary: #ffffff;
+  --color-secondary: #48645c;
+  --color-secondary-container: #c7e6dc;
+  --color-on-secondary-container: #304c45;
+  --color-tertiary: #773c00;
+  --color-tertiary-container: #9b4f00;
+  --color-tertiary-fixed: #ffdcc5;
+  --color-on-tertiary-fixed: #301400;
+  --color-surface: #fff8f6;
+  --color-surface-container: #fbebe5;
+  --color-surface-container-low: #fff1ec;
+  --color-surface-container-high: #f5e5e0;
+  --color-surface-container-highest: #efdfda;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #221a17;
+  --color-on-surface-variant: #5a403c;
+  --color-outline: #8f706b;
+  --color-outline-variant: #e3beb8;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Hide scrollbar for category pill sliders */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
